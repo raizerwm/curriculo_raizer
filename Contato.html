@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EstiloContato.css">
+    <title>Contato</title>
+    <script>
+        
+        function voltarcurriculo() {
+            window.location.href = "https://raizerwm.github.io/curriculo_raizer/";
+        }
+    
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="item-image">
+            <img src="Contato.png" alt="">
+        </div>
+        
+        <Div class="item-profile">
+            
+            <h1>Meus contatos</h1>
+            <div class="item-whatsapp">
+                <img src="WhatssApp.png" alt="WhatsApp">
+                <p>(19) 981745-5856</p>
+            </div>
+            <div class="item-instagram">
+                <img src="Instagram.png" alt="Instagram">
+                <a href="https://www.instagram.com/willerraizer/" target="_blank">Instagram</a>
+            </div>
+                
+            <div class="item-facebook">
+                <img src="Facebook.png" alt="Facebook">
+                <a href="https://www.facebook.com/willer2ra?locale=pt_BR" target="_blank">Facebook</a>
+            </div>
+            
+            <div class="item-linkedin">
+                <img src="Linkedin.png" alt="Linkedin">
+                <a href="https://www.linkedin.com/in/willer-raizer-menezes-71940b188/" target="_blank">Linkedin</a>
+            </div>
+            
+            <div class="item-github">
+                <img src="GitHub.png" alt="GitHub">
+                <a href="https://github.com/raizerwm?tab=repositories" target="_blank">GitHub</a>
+            </div>
+            
+
+
+            <h1>Entre em contato</h1>
+        
+            <form id="contactForm">
+                <table>
+
+                    <tr>
+                        <th><label for="nome">Nome:</label></th>
+                        <td><input type="text" name="nome" id="nome"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="email">E-mail:</E-mail></label></th>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="msg">Digite sua Mensagem:</label></th>
+                        <td><textarea name="msg" id="msg" rows="10" cols="60"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type="button" onclick="enviar()">Enviar</button></td>
+                    </tr>
+
+                </table>
+            </form>
+        </Div>
+        
+    </div>
+    
+    <tr>
+        <td></td>
+        <td><button onclick="voltarcurriculo()">Voltar</button></td>
+    </tr>
+    
+    <script src="script.js"></script>
+</body>
+</html>

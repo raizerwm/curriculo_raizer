@@ -1,0 +1,84 @@
+body {
+  background-color: #49839b;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+h1 {
+  font-family: Verdana;
+  font-size: 90px;
+  color: #d9d9d9;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-family: Verdana;
+  font-size: 50px;
+  color: #d9d9d9;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  
+  
+}
+
+h3 {
+  font-family: Verdana;
+  font-size: 30px;
+  color: #d9d9d9;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.item-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-link {
+    display: inline-block; /* Para se comportar como um botão */
+    background-color: #e0fffb; /* Cor de fundo do botão */
+    color: #1e4252; /* Cor do texto */
+    padding: 10px 5px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto no link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 20px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+    font-family: verdana;
+    width: 300px;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Efeito de hover (quando o mouse está sobre o link) */
+.button-link:hover {
+    background-color: #b4cce0; /* Cor de fundo ao passar o mouse */
+}
+
+/* Efeito de clique (quando o link é clicado) */
+.button-link:active {
+    background-color: #4093a4; /* Cor de fundo quando clicado */
+}
